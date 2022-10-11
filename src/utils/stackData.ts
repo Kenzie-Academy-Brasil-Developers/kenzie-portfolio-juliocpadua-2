@@ -6,6 +6,7 @@ import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
 import { SiTypescript } from "react-icons/si";
 import { FaDocker } from "react-icons/fa";
+import { SiPostgresql, SiPython } from "react-icons/si";
 
 export const stackData = [
   {
@@ -32,6 +33,8 @@ export const stackData = [
     title: "React",
     img: imgReact,
   },
+  { title: "PostgreSQL", img: SiPostgresql },
+  { title: "Python", img: SiPython },
   { title: "TypeScript", img: SiTypescript },
   { title: "Docker", img: FaDocker },
 ];
